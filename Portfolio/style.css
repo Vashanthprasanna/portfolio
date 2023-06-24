@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Andika',sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: end;
+    background-image:url(img/bg.jpg);
+}
+h2{
+    margin-right: auto;
+    margin-left: 7mm;
+    padding: 7mm;
+    color:ghostwhite;
+}
+a{
+    margin: 7mm;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-size: 18px;
+    color: red;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    padding-top: 30mm;
+    padding-bottom: 30mm;
+    background-image:url(img/bg-white-1.jpg);
+    background-size: cover;
+}
+.body-txt{
+    margin-right: auto;
+    padding: 20mm;
+}
+h3, h1, p, button{
+    padding: 1.5mm;
+}
+.body-img{
+    padding: 5mm;
+    margin-right: 7cm;
+}
+.body-btn{
+    margin: 3mm;
+    width: 4cm;
+    border: 1px solid;
+    margin-left: 10mm;
+    margin-top: 4mm;
+    background-color: rgba(249, 20, 20, 0.999);
+    border: none;
+}
+.body-btn:hover{
+    
+    color: white;
+    cursor: pointer;
+
+}
+.about{
+    text-align: center;
+    padding-top:20mm;
+    padding-bottom:32mm;
+    background-image:url(img/bg.jpg);
+}
+.abt-txt{
+    margin-left: 3cm;
+    margin-right: 3cm;
+    font-size: large;
+    padding-top: 10mm;
+    line-height: 10mm;
+    color: white;
+    text-align: justify;
+}
+.skills{
+    text-align: center;
+    padding-top:8mm;
+    padding-bottom:25mm;
+    background-color: white;
+    background-image:url(img/bg-white-1.jpg);
+    background-size: cover;
+}
+.skll-bar{
+    margin: 7mm;
+    accent-color: red;
+}
+progress{
+    width: 12cm;
+    height: 5mm;
+    margin-top: 8mm;
+}
+label{
+    margin: 5mm;
+    font-size: large;
+}
+.certificates{
+    text-align: center;
+    padding-top: 1.5cm;
+    padding-bottom: 3cm;
+    background-image:url(img/bg.jpg);
+}
+.cert{
+    padding-top: 1cm;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6mm;
+}
+.contact{
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;
+    text-align: center;
+    background-image:url(img/bg-white-1.jpg);
+    background-size: cover;
+}
+input{
+    margin-top: 5mm;
+    margin-bottom: 8mm;
+    width: 15cm;
+    height: 5mm;
+    padding: 2mm;
+    outline: none;
+    border: 2px solid;
+}
+.label{
+    margin-right: 157mm;
+}
+textarea{
+    margin-top: 5mm;
+    height: 25mm;
+    width: 151mm;
+    padding: 2mm;
+    margin-bottom: 15mm;
+    border: 2px solid;
+}
+.contact-add{
+    display: flex;
+}
+.cont-img{
+    margin-left: 45mm;
+}
+figcaption{
+    color: white;
+}
+h4{
+    margin-top: 3mm;
+    margin-left: 4mm;
+}
